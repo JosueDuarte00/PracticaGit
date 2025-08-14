@@ -123,7 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BudgetMatrix.cpp" />
     <ClCompile Include="PracticaGit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BudgetMatrix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
